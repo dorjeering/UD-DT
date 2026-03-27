@@ -6,3 +6,5 @@ m3=float(input("Marks of module 3"))
 m4=float(input("Marks of module 4"))
 a= float(input("Enter the number of classes attended: "))
 att=(a/96)*96
+
+average = (m1+m2+m3+m4)/4
