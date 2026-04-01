@@ -22,12 +22,12 @@ elif 100>avg>=60:
     print("Grade: B")
 elif 100>avg>=40:
     print("Grade: C")
-elif avg<100:
+elif avg>100:
     print("Grade: Error! Recheck the marks entered!")
 else:
     print("Grade: D")
 print("Attendance:%.2f"%att,"%")
-if (100>avg>=40 and 100>m1>=40 and 100>m2>=40 and 100>m3>=40 and 100>m4>=40 and 100>att>=90):
+if (100>=avg>=40 and 100>=m1>=40 and 100>=m2>=40 and 100>=m3>=40 and 100>=m4>=40 and 100>=att>=90):
     print("Status: Pass")
 else:
     print("Status: Fail")
@@ -36,16 +36,3 @@ if (100>=avg>=80 and 100>=att>=90):
 else:
     print("Not eligible for reward.")
 print()
-
-m1=float(input("Marks of module 1"))
-m2=float(input("Marks of module 2"))
-m3=float(input("Marks of module 3"))
-m4=float(input("Marks of module 4"))
-a= float(input("Enter the number of classes attended: "))
-att=(a/96)*96
-
-
-if (m1 and m2 and m3 and m4)>=50:
-    print("pass")
-
-print (average)
