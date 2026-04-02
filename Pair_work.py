@@ -14,6 +14,12 @@ if (m1>100 or m2>100 or m3>100 or m4>100):
     quit()
 else:
     pass
+if att>96:
+    print("Wrong attendace has been entered. How can you attend classes beyond limit?")
+    print()
+    quit()
+else:
+    pass
 print()
 avg = (m1+m2+m3+m4)/4
 print("Average: ",avg, "%")
@@ -28,12 +34,7 @@ elif avg>100:
 else:
     print("Grade: D")
 print("Attendance:%.2f"%att,"%")
-if att>96:
-    print("Wrong attendace has been entered. How can you attend classes beyond limit?")
-    quit()
-    print()
-else:
-    pass
+
 if (100>=avg>=40 and 100>=m1>=40 and 100>=m2>=40 and 100>=m3>=40 and 100>=m4>=40 and 100>=att>=90):
     print("Status: Pass")
 else:
