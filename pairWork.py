@@ -1,4 +1,5 @@
 print()
+print("====="*10)
 n= input("Enter your name: ")
 m1=float(input("Marks of module 1: "))
 m2=float(input("Marks of module 2: "))
@@ -35,4 +36,5 @@ if (100>=avg>=80 and 100>=att>=90):
     print("Eligible for reward.")
 else:
     print("Not eligible for reward.")
+print("====="*10)
 print()
